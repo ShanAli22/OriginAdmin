@@ -1,0 +1,56 @@
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.sidebar {
+  width: 250px;
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+  background: gold;
+  color: black;
+  font-weight: bold;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.data-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-page th,
+.data-page td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-page th {
+  background-color: #222;
+  color: white;
+}
